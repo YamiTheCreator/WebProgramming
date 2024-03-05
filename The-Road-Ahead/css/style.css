@@ -7,15 +7,14 @@
     align-items: center;
     justify-content: space-between;
     max-width: 960px;
-    margin-top: 17px;
-    margin-bottom: 17px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 17px 0;
+    margin: 0 auto;
 }
 
 .header__logo-pic {
-    margin-top: 3px;
-    margin-bottom: 11px;
+    padding-top: 3px;
+    padding-bottom: 11px;
+    margin: 0 auto;
 }
 
 .header__list {
@@ -45,8 +44,10 @@
 }
 
 .intro {
+    max-width: 960px;
     padding-top: 89px;
     padding-bottom: 38px;
+    margin: 0 auto;
 }
 
 .intro__title {
@@ -57,7 +58,8 @@
     letter-spacing: 2px;
     text-align: center;
     color: #2E2E2E;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
 }
 
 .intro__subtitle {
@@ -68,18 +70,19 @@
     text-align: center;
     color: #2E2E2E;
     opacity: 63%;
+    padding-bottom: 75px;
+    margin: 0 auto;
 }
 
 .main-section__pic {
     width: 100%;
+    height: 534px;
     border-radius: 3px;
 }
 
 .text {
     padding: 140px 240px;
-}
-
-.text__item {
+    margin: 0 auto;
     font-family: "Oxygen";
     font-weight: 400;
     font-size: 24px;
@@ -107,9 +110,10 @@
 }
 
 .footer__logo-pic {
-    margin-top: 3px;
-    margin-bottom: 5px;
-    margin-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin: 0 auto;
 }
 
 .footer__list {
@@ -118,10 +122,9 @@
 }
 
 .footer__item {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    text-align: center;
+    padding: 20px 20px 10px 10px;
+    margin: 0 auto;
 }
 
 .footer__link {
