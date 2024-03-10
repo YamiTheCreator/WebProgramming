@@ -96,6 +96,7 @@
 
 .footer {
     background-image: url("../img/Village_In_Mountain.jpg");
+    background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url('../img/Village_In_Mountain.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 5%;
