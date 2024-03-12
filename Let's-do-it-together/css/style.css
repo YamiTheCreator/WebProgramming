@@ -236,10 +236,21 @@ body {
     font-size: 11px;
     line-height: 35px;
     color: #999999;
-    background-color: #FFFFFF;
+    background-color: #FCFCFC;
     border-top: 1px solid #DEDEDE;
 }
 
 .userfiles__logo {
     padding: 5px 10px 4px 0;
+}
+
+.link__container {
+    position: absolute;  
+    top: 0;  
+    left: 0;  
+    display: block;  
+    width: 100%;  
+    height: 100%;  
+    text-decoration: none;  
+    z-index: 1;  
 }
